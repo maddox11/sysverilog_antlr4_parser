@@ -1,0 +1,7 @@
+<map id="ibex_id_stage" name="ibex_id_stage">
+<area shape="rect" id="Node000001" title="Instruction Decode Stage &#160;&#160;&#160;&#160;Decode stage of the core. It decodes the instructions and hosts the regi..." alt="" coords="73,101,185,127"/>
+<area shape="rect" id="Node000002" href="$moduleibex__decoder.html" title="Instruction decoder &#160;&#160;&#160;&#160;This module is fully combinatorial, clock and reset are used for &#160;&#160;assertions..." alt="" coords="5,5,115,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,41,99,76,120,100,116,103,95,79,71,44"/>
+<area shape="rect" id="Node000003" href="$moduleibex__controller.html" title="Main controller of the processor" alt="" coords="139,5,258,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,45,171,79,147,103,143,99,167,76,187,42"/>
+</map>

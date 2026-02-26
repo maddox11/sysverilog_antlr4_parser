@@ -1,0 +1,5 @@
+<map id="ibex_prefetch_buffer" name="ibex_prefetch_buffer">
+<area shape="rect" id="Node000001" title="Prefetcher Buffer for 32 bit memory interface &#160;&#160;&#160;&#160;Prefetch Buffer that caches instructions...." alt="" coords="5,101,161,127"/>
+<area shape="rect" id="Node000002" href="$moduleibex__fetch__fifo.html" title="Fetch Fifo for 32 bit memory interface &#160;&#160;&#160;&#160;input port: send address and data to the FIFO &#160;&#160;clear_i cl..." alt="" coords="24,5,143,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,45,86,101,81,101,81,45"/>
+</map>

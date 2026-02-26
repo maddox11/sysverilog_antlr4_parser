@@ -1,0 +1,45 @@
+<map id="ibex_core" name="ibex_core">
+<area shape="rect" id="Node000001" title="Top level module of the ibex RISC&#45;V core" alt="" coords="980,523,1065,549"/>
+<area shape="rect" id="Node000002" href="$moduleibex__if__stage.html" title=" " alt="" coords="637,150,747,175"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="739,178,790,203,849,237,907,281,958,334,987,385,1006,438,1017,487,1023,523,1017,523,1012,488,1001,440,982,387,954,338,904,285,846,242,787,208,737,183"/>
+<area shape="rect" id="Node000003" href="$moduleibex__icache.html" title=" " alt="" coords="261,17,360,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="374,23,423,24,478,29,536,40,591,60,621,80,648,104,684,148,680,152,644,107,618,84,588,65,534,45,477,34,422,29,374,28"/>
+<area shape="rect" id="Node000004" href="$moduleibex__prefetch__buffer.html" title="Prefetcher Buffer for 32 bit memory interface &#160;&#160;&#160;&#160;Prefetch Buffer that caches instructions...." alt="" coords="233,70,389,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="403,85,494,95,590,115,633,130,669,148,667,152,630,135,589,120,493,100,402,90"/>
+<area shape="rect" id="Node000005" href="$moduleibex__fetch__fifo.html" title="Fetch Fifo for 32 bit memory interface &#160;&#160;&#160;&#160;input port: send address and data to the FIFO &#160;&#160;clear_i cl..." alt="" coords="5,70,124,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="138,80,233,80,233,85,138,85"/>
+<area shape="rect" id="Node000006" href="$moduleibex__compressed__decoder.html" title="Compressed instruction decoder &#160;&#160;&#160;&#160;Decodes RISC&#45;V compressed instructions into their RV32 equivalent...." alt="" coords="213,123,408,149"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="422,141,637,156,637,162,421,146"/>
+<area shape="rect" id="Node000007" href="$moduleibex__dummy__instr.html" title="Dummy instruction module &#160;&#160;&#160;&#160;Provides pseudo&#45;randomly inserted fake instructions for secure code obfu..." alt="" coords="239,177,382,202"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="396,189,489,188,589,181,639,173,640,178,590,187,489,194,396,194"/>
+<area shape="rect" id="Node000008" href="$moduleibex__branch__predict.html" title="Branch Predictor &#160;&#160;&#160;&#160;This implements static branch prediction. It takes an instruction and its PC and..." alt="" coords="234,230,387,255"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="401,242,493,237,542,229,588,217,635,197,672,173,675,178,637,202,590,223,543,234,494,242,402,248"/>
+<area shape="rect" id="Node000009" href="$moduleibex__id__stage.html" title="Instruction Decode Stage &#160;&#160;&#160;&#160;Decode stage of the core. It decodes the instructions and hosts the regi..." alt="" coords="636,337,748,362"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="762,354,809,364,860,378,911,400,958,429,980,451,998,477,1019,522,1014,524,993,479,976,454,954,433,908,404,858,383,807,369,761,360"/>
+<area shape="rect" id="Node000010" href="$moduleibex__decoder.html" title="Instruction decoder &#160;&#160;&#160;&#160;This module is fully combinatorial, clock and reset are used for &#160;&#160;assertions..." alt="" coords="256,283,365,309"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="379,298,479,307,590,323,643,334,642,339,589,328,478,313,379,303"/>
+<area shape="rect" id="Node000011" href="$moduleibex__controller.html" title="Main controller of the processor" alt="" coords="251,337,370,362"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="384,347,636,347,636,352,384,352"/>
+<area shape="rect" id="Node000012" href="$moduleibex__ex__block.html" title="Execution stage &#160;&#160;&#160;&#160;Execution block: Hosts ALU and MUL/DIV unit" alt="" coords="635,443,749,469"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="763,454,857,463,908,473,957,488,985,503,1009,521,1005,525,983,508,955,493,907,478,856,468,763,459"/>
+<area shape="rect" id="Node000013" href="$moduleibex__alu.html" title="Arithmetic logic unit" alt="" coords="272,390,349,415"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="363,403,468,413,590,429,643,441,642,446,589,435,467,418,363,409"/>
+<area shape="rect" id="Node000014" href="$moduleibex__multdiv__slow.html" title="Slow Multiplier and Division &#160;&#160;&#160;&#160;Baugh&#45;Wooley multiplier and Long Division" alt="" coords="239,443,383,469"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="396,453,634,453,634,459,396,459"/>
+<area shape="rect" id="Node000015" href="$moduleibex__multdiv__fast.html" title="Fast Multiplier and Division &#160;&#160;&#160;&#160;16x16 kernel multiplier and Long Division" alt="" coords="241,497,380,522"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="393,503,488,495,589,481,650,466,652,471,590,487,488,501,394,508"/>
+<area shape="rect" id="Node000016" href="$moduleibex__load__store__unit.html" title="Load Store Unit &#160;&#160;&#160;&#160;Load Store Unit, used to eliminate multiple access during processor stalls,..." alt="" coords="613,497,771,522"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="785,514,980,530,979,535,784,519"/>
+<area shape="rect" id="Node000017" href="$moduleibex__wb__stage.html" title="Writeback Stage &#160;&#160;&#160;&#160;Writeback is an optional third pipeline stage. It writes data back to the registe..." alt="" coords="633,550,751,575"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="765,565,856,566,956,556,991,546,992,551,956,561,857,571,765,570"/>
+<area shape="rect" id="Node000018" href="$moduleibex__cs__registers.html" title="Control and Status Registers" alt="" coords="625,607,759,633"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="773,624,863,619,910,610,955,595,987,573,1010,547,1014,551,990,577,957,600,911,615,864,625,773,629"/>
+<area shape="rect" id="Node000019" href="$moduleibex__csr.html" title="Control / status register primitive" alt="" coords="273,770,349,795"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="362,790,415,796,475,794,506,789,535,781,563,768,587,750,597,738,601,726,600,699,598,671,602,657,611,642,626,631,630,635,615,646,607,659,603,672,605,699,606,727,602,741,591,754,566,772,537,786,507,794,476,800,415,801,362,796"/>
+<area shape="rect" id="Node000020" href="$moduleibex__counter.html" title=" " alt="" coords="257,903,364,929"/>
+<area shape="poly" id="edge19_Node000018_Node000020" title=" " alt="" coords="363,930,416,941,477,945,507,942,536,936,563,924,587,906,599,886,603,856,601,778,597,699,601,666,611,642,625,631,628,635,615,646,606,668,603,699,606,778,609,856,604,888,591,910,566,928,538,941,508,948,477,950,415,946,362,935"/>
+<area shape="rect" id="Node000021" href="$moduleibex__pmp.html" title=" " alt="" coords="649,657,735,682"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="749,678,797,683,850,683,905,674,930,665,954,652,979,630,997,601,1016,548,1021,550,1002,603,983,633,958,657,933,670,906,679,851,688,796,689,749,684"/>
+<area shape="rect" id="Node000022" href="$structibex__pkg_1_1irqs__t.html" title=" " alt="" coords="629,770,755,795"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="749,796,797,805,852,807,906,798,931,788,954,774,967,758,978,734,997,668,1017,549,1022,549,1002,669,983,736,971,761,958,778,934,793,908,803,852,812,796,810,748,801"/>
+</map>
